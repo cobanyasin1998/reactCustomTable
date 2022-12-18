@@ -34,6 +34,7 @@ function App() {
         head={[
           {
             name: "Ad-Soyad",
+            sortable:true
           },
           {
             name: "E-Posta",
@@ -47,7 +48,7 @@ function App() {
           },
         ]}
         body={users.map((user) => [
-          user.name,
+          `${user.name}  ${user.surname}`,
           user.email,
           user.age,
           [
