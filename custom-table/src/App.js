@@ -1,9 +1,10 @@
+import Table from "./table";
 
 
 function App() {
   return (
-    <div className="App">
-    HELLO WORLD
+    <div className="p-4">
+      <Table/>
     </div>
   );
 }
